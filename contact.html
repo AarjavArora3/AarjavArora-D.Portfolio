@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no, minimal-ui"/>
+    
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap.extension.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/swiper.css" rel="stylesheet" type="text/css" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+    <link rel="shortcut icon" href="img/favicon.ico" />
+  	<title>Aarjav Arora</title>
+</head>
+<body>
+
+    <!-- LOADER -->
+    <div id="loader-wrapper"></div>
+
+    <!-- HEADER -->
+    <header class="type-2">
+        <div class="header-wrapper">
+            <a id="logo" href="index.html"><img src="img/logo.png" alt="" /></a>
+            <div class="hamburger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="follow style-1">
+                <a class="entry" href="https://www.instagram.com/aarjav_arora" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a class="entry" href="https://twitter.com/aroraaarjav" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a class="entry" href="https://dribbble.com/aarjavarora" target="_blank"><i class="fa fa-dribbble"></i></a>
+                <a class="entry" href="https://behance.net/aarjavarora1" target="_blank"><i class="fa fa-behance"></i></a>
+            </div>
+        </div>
+        <div class="navigation-wrapper">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li><a href="services.html">Services</a></li>
+                    <li>
+                        <a>Portfolio</a>
+                        <div class="toggle-menu"></div>
+                        <ul>
+                            <li><a href="Graphite Sketches.html">Graphite Sketches</a></li>
+                            <li><a href="Digital Art.html">Digital Art</a></li>
+                            <li><a href="Graphic Design.html">Graphic Design</a></li>
+                            <li><a href="User Experience Design.html">User Experience Design</a></li>
+                            <li><a href="Engineering.html">Engineering</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div id="content-block">
+
+        <div class="container-fluid wide">
+            <div class="row">
+                <div class="col-md-6 col-lg-4 col-lg-offset-1">
+                    <div class="cell-view full-screen-height text-center">
+                        <div class="empty-space col-xs-b30"></div>
+                        <article class="sa">
+                            <h3>Contact Us</h3>
+                        </article>
+                        <div class="empty-space col-xs-b25 col-sm-b50"></div>
+                        <div class="sa col-xs-b10">
+                            <b>Tel.:</b> <a href="tel:+918826121360">+91-8826121360</a><br/>
+                        </div>
+                        <div class="sa col-xs-b10">
+                            <b>Address:</b>1211, Sector-9A, Gurugram-122001<br/>
+                        </div>
+                        <div class="sa col-xs-b10">
+                            <b>Email:</b> <a href="mailto:aarjavarora@gmail.com">aarjavarora@gmail.com</a>
+                        </div>
+                        <div class="empty-space col-xs-b30"></div>
+                        <div class="follow style-1">
+                            <a class="entry" href="https://www.instagram.com/aarjav_arora" target="_blank"><i class="fa fa-instagram"></i></a>
+                            <a class="entry" href="https://twitter.com/aroraaarjav" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a class="entry" href="https://dribbble.com/aarjavarora" target="_blank"><i class="fa fa-dribbble"></i></a>
+                            <a class="entry" href="https://behance.net/aarjavarora1" target="_blank"><i class="fa fa-behance"></i></a>
+                        </div>
+                        <div class="empty-space col-xs-b25 col-sm-b50"></div>
+                        <form class="contact-form">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="simple-input-wrapper">
+                                        <input class="simple-input" value="" type="text" placeholder="Name" name="name" />
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="simple-input-wrapper">
+                                        <input class="simple-input" value="" type="text" placeholder="Email" name="email" />
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="simple-input-wrapper">
+                                <input class="simple-input" value="" type="text" placeholder="Subject" name="subject" />
+                                <span></span>
+                            </div>
+                            <div class="simple-input-wrapper">
+                                <textarea class="simple-input" placeholder="Type your text" name="message"></textarea>
+                                <span></span>
+                            </div>
+                            <div class="empty-space col-xs-b10"></div>
+                            <div class="button">submit<input type="submit"/></div>
+                        </form>
+                        <div class="empty-space col-xs-b30"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="map-inst style-1" id="map-canvas" data-lat="34.0151244" data-lng="-118.4729871" data-zoom="14"></div>
+            <div class="addresses-block hidden" data-rel="map-canvas">
+                <a class="marker" data-lat="34.0151244" data-lng="-118.4729871" data-string="1. Here is some address or email or phone or something else..."></a>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer class="type-1">
+            <div class="container">
+                <div class="col-xs-text-center">
+                    <div class="copyright sa small">&copy; 2022 All rights reserved. Development by<b>Aarjav Arora</b>.</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <div class="phone-marker visible-xs"></div><div class="tablet-marker visible-sm"></div>
+
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/swiper.jquery.min.js"></script>
+    <script src="js/global.js"></script>
+
+    <!-- MAP -->
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src="js/map.js"></script>
+
+    <!-- CONTACT -->
+    <script src="js/contact.form.js"></script>
+
+</body>
+</html>
